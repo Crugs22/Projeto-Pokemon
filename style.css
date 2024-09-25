@@ -183,3 +183,33 @@ li {
     bottom: 20px;
     padding: 9px 50px 9px 50px;
 }
+
+.amarelo {
+    background: linear-gradient(#d7e93b 50%, #565f07bb 50%);
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    font-weight: bolder;
+}
+
+.rosa {
+    background: rgb(255, 7, 222);
+    color: white;
+    border: 0;
+    border-radius: 10px;
+}
+
+.roxo {
+    border: 0;
+    border-radius: 10px;
+    background: rgb(147, 99, 179);
+    color: white;
+    font-weight: lighter;
+}
+
+.preto {
+    border: 0;
+    border-radius: 10px;
+    background: rgb(66, 66, 66);
+    color: white;
+}
