@@ -1,10 +1,10 @@
 
 body {
-    margin: 0 auto;
-    justify-content: center;
+    width: 100%;
+    height: 100%;
     text-align: center;
     align-items: center;
-    overflow-x: hidden;
+    overflow-x: hidden; 
 }
 
 header {
@@ -28,7 +28,7 @@ a {
 
 nav {
     background-image: linear-gradient(to right, #eb2323, #e7ff0f);
-    margin: 0px 50px 50px 50px;
+    margin: 0px 15% 50px 15%;
     
 }
 
@@ -43,23 +43,26 @@ nav li {
     width: 100%;
     
 }
+article {display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 0px 0px 0px 450px;
+}
 
 main  {
     display: flex;
-    flex-flow: row;
-    
+    justify-content: space-around;
 }
+
 .box {
     display: flex;
     position: relative;
     top: 1vh;
-    right: 68px;
     background: rgb(169, 77, 231);
-    padding: 0px 10px 0px 30px;
-    margin: 50px  0px 0px;
+    padding: 0px 200px  0px 20px;
+    margin: 100px 33% 0px 0px;
+    height: 24vh;
     border-radius: 20px;
-    width: 27%;
-    height: 36vh;
 
 }
 
@@ -80,6 +83,7 @@ main  {
     right: 68px;
     bottom: 6px;
     font-weight: bold;
+    font-size: 17px;
 }
 .box div p {
     padding-left: 20px;
@@ -105,12 +109,18 @@ li {
     list-style: none;
 }
 .img p {
-    position: relative;
-    left: 350px;
+    text-align: start;
+    font-size: 20px;
     font-weight: bold;
+    padding: auto;
+    display: flex;
+    align-items: start;
+    margin: 0 auto;
 }
 
 .img img {
+    display: flex;
+    margin: 0px 200px;
     position: relative;
     left: 200px;
     width: 300px;
@@ -118,7 +128,6 @@ li {
 }
 
 .img {
-
     display: flex;
     margin-right: 10px;
     margin-left: 10px;
@@ -128,23 +137,23 @@ li {
     padding-left: 40px;
 }
 
-.gender {
-    opacity: 100%;
-}
 
 .type .title {
     font-weight: 100;
+    display: flex;
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
-    position: relative;
-    left: 40px;
-    bottom: 77px;
+    justify-content: center;
+    margin: 10px -45px 10px -355px;
+
 }
 
 .type div {
+    display: flex;
+    justify-content: center;
     padding-left: 10px;
     font-size: 20px;
-    
+    margin: 0px 0px 10px -86px;
 }
 
 .type div button {
@@ -154,10 +163,7 @@ li {
     cursor: pointer;
     display: inline-flex;
     padding: 9px 50px 9px 50px;
-    margin-left:5px ;
-    bottom: 90px;
-    position: relative;
-    left: 153px;
+    margin-left: 5px;
     border-radius: 10px;
     border: 0;
     background: rgb(147, 99, 179);
@@ -168,20 +174,22 @@ li {
 }
 
 
-.weak {
+
+.weak .title {
     font-weight: 100;
+    display: flex;
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
-    position: relative;
-    left: 85px;
-    bottom: 77px;
+    justify-content: center;
+    margin: 10px -45px 10px -260px;
 }
 
-.weak button {
-    position: relative;
-    left: 226px;
-    bottom: 20px;
-    padding: 9px 50px 9px 50px;
+
+.weak button{
+    padding: 9px 45px;
+    cursor: pointer;
+    margin: 0px -90px 0px 90px;
+    
 }
 
 .amarelo {
